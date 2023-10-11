@@ -10,7 +10,7 @@ function Signup(){
   const [confirmPassword, setConfirmPassword] = useState("")
   const signup_address = "http://127.0.0.1:6942/Signup"
   const navigate = useNavigate()
- // const location = useLocation()
+ 
   
   useEffect(() => {
     const savedEmail = localStorage.getItem("email");
